@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8" />
+                <meta
+                        name="viewport"
+                        content="width=device-width, initial-scale=1.0"
+                />
+                <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+                <title>Pokemon project</title>
+                <link rel="stylesheet" href="style.css" />
+        </head>
+
+        <body>
+                <header class="header"> 
+                    <h1>Pokedex</h1>
+                </header>
+                 
+                <main>
+                <form action="" class="search">
+                        <input type="text" class="search__input" placeholder="Enter a pokemon name"/>
+                </form>
+                <div class="suggestionContainer">
+                    <ul class="suggestion">
+                    
+                    </ul>
+                </div>
+   
+                <section class="dex">
+                <div class="info">
+                 
+                    <div class="info__top">
+                <ul class="list"> 
+                    <!-- <li>
+                       
+                    </li> -->
+                </ul>
+
+                <div class="namebar">
+                        <img class="pokeball" src="https://img.icons8.com/officexs/16/000000/pokeball.png">
+                        <p id="pokemon__id" class="details"></p>
+                        <p id="pokemon__name" class="details"></p>
+                </div>
+
+                    </div>
+                    
+                    <div class="info__bottom">
+                        <img src="#" id="pokemon__image" class="details">
+
+                        <div class="info__box">
+                            <div class="info__box-top">
+                               <p class="details" id="pokemon__category"></p>
+                            </div>
+                            <div class="info__box-med">
+                                <table class="pokemon__table">
+                                    <tr>
+                                        <td class="head">Type</td>
+                                        <td id="pokemon__type" class="details">
+                                            <ul id="pokemon__typeList">
+
+                                            </ul>
+
+
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                            <td class="head">Height</td>
+                                            <td id="pokemon__height" class="details"></td>
+                                    </tr>
+
+                                    <tr>
+                                            <td class="head">Weight</td>
+                                            <td id="pokemon__weight" class="details"></td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                            <div class="info__box-bottom">
+                                    <p id="pokemon__favour"  class="details"></p>
+                            </div>
+                           
+                        </div>
+                    </div>
+               
+
+                    
+                </div>
+            </section>
+            </main>
+                <!-- <script src="backup.js"></script></header> -->
+                <script src="function.js"></script></header>
+                <script src="https://kit.fontawesome.com/b4789a145c.js" crossorigin="anonymous"></script>
+              
+        </body>
+</html>
