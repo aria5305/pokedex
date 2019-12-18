@@ -1,6 +1,9 @@
 Just a small project I am doing for learning API (Promsies and fetch.etc)
 
+Live site: https://aria-pokedex.netlify.com/
+
 A pokemonDex - design of the pokedex is based on Sword/Sheild.
+
 API I am using: https://pokeapi.co/
 
 Used HTML, SCSS, Vanilla JS to do this.
