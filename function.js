@@ -71,7 +71,7 @@
                         typeList.innerHTML = '';
                         pokemonDetail[0].textContent = pokemon.id;
                         pokemonDetail[1].textContent = pokemon.name;
-                        console.log('second');
+
                         pokemonDetail[2].src = pokemon.sprites.front_default;
                         for (let x = 0; x < pokemon.types.length; x++) {
                                 const type = document.createElement('li');
@@ -103,7 +103,6 @@
                 );
 
                 const matchedName = matchArray.map(pokemon => pokemon.pokemon_species.name);
-                console.log(matchedName, matchedName.length);
 
                 const html = matchArray
                         .map(pokemon => {
